@@ -1,17 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #565555;
+
+body{
+    background-color: #f0d5d5;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
     margin: 0;
     padding: 0;
 }
 
 .polls-list {
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: #fff;
+    font-family: Arial, sans-serif;
+    width: 80%; 
+    max-width: 400px; 
+    margin: 20vh auto; 
+    padding: 20px;
+    background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
 .polls-list ul {
